@@ -1,0 +1,463 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald";
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans";
+}
+
+p,
+button {
+  font-size: 15px;
+}
+
+.upper {
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+}
+.left a{
+  color: white;
+}
+.left i {
+  padding: 12px 14px;
+}
+
+.left i:hover {
+  cursor: pointer;
+  background-color: gainsboro;
+  color: black;
+}
+
+.welcome {
+  text-align: center;
+  padding: 48px 48px;
+}
+
+.welcome b {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.welcome p {
+  margin-top: 18px;
+}
+
+.welcome span {
+  background-color: black;
+  color: white;
+  padding: 4px;
+  text-align: center;
+}
+
+.jumbotron {
+  background-image: url(./Assets/jane.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.content {
+  color: white;
+  padding-top: 260px;
+  margin-left: 15px;
+}
+
+.content h1 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.content b {
+  font-size: 38px;
+  font-weight: 900;
+}
+
+.content p {
+  background-color: lightgray;
+  color: black;
+  font-size: 15px;
+  font-weight: 300;
+  width: 70px;
+  padding: 6px 8px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.parent {
+  padding: 18px 16px;
+  background-color: lightgray;
+  display: flex;
+}
+
+.hats_container {
+  margin-bottom: 25px;
+}
+
+.title_container {
+  margin: 25px;
+  background-color: white;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.material {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.material span {
+  color: grey;
+}
+
+.hats_img img {
+  width: 100%;
+}
+
+.hats_para {
+  padding: 10px;
+}
+
+.button_parent {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.like button {
+  padding: 4px 14px;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+.like button:hover {
+  cursor: pointer;
+  background-color: lightgray;
+}
+
+.reply button {
+  background-color: black;
+  color: white;
+  padding: 8px 14px;
+  border: none;
+  font-size: 15px;
+}
+
+.reply button:hover {
+  cursor: pointer;
+  background-color: #ccc;
+  color: black;
+}
+
+.one {
+  background-color: white;
+  color: black;
+  padding: 0 8px;
+}
+
+hr {
+  border: 1px solid #ccc;
+}
+
+.george {
+  display: flex;
+  gap: 55px;
+  padding: 10px;
+}
+
+.grg_img img {
+  width: 100px;
+}
+
+.grg_material {
+  padding-top: 22px;
+}
+
+.grg_material b {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.grg_material span {
+  color: #ccc;
+}
+
+.grg_material p {
+  padding-top: 15px;
+}
+
+.about_card {
+  background-color: black;
+  color: white;
+  margin: 25px;
+}
+
+.avatar img {
+  width: 100%;
+  filter: grayscale(75%);
+}
+
+.avatar_text {
+  padding: 16px;
+}
+
+.avatar_text h2 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.posts {
+  margin: 25px;
+}
+
+.post_text {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+.post_text h2 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.four_cards {
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  gap: 25px;
+}
+
+.four_cards:hover {
+  cursor: pointer;
+  background-color: #ccc;
+}
+
+.four img {
+  width: 50px;
+}
+
+.four_text {
+  padding: 8px;
+}
+
+.four_text h3 {
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.trend_img {
+  filter: sepia(75%);
+}
+
+.advertise_container {
+  margin: 25px;
+}
+
+.advertise {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+.advertise h2 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.AD {
+  background-color: white;
+  padding: 18px;
+}
+
+.AD_here {
+  background-color: #ccc;
+  text-align: center;
+  padding: 100px;
+}
+
+.tag {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+.tag_container {
+  margin: 25px;
+}
+
+.tag h2 {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.span_text {
+  background-color: white;
+  padding: 14px;
+}
+
+.fashion {
+  background-color: black;
+  color: white;
+  margin-bottom: 16px !important;
+  padding: 1px 14px;
+  text-align: center;
+}
+
+.thirteen {
+  background-color: #ccc;
+  color: black;
+  padding: 1px 14px;
+  margin-bottom: 16px !important;
+  text-align: center;
+}
+
+.inspiration_container {
+  margin: 25px;
+}
+
+.inspiration {
+  background-color: black;
+  color: white;
+  padding: 14px;
+}
+
+.inspiration h2 {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.inxpire {
+  display: flex;
+  padding: 10px;
+  background-color: white;
+  gap: 10px;
+}
+
+.inspire_img img {
+  width: 330px;
+  padding-bottom: 15px;
+}
+
+.follow {
+  margin: 25px;
+}
+
+.me {
+  background-color: black;
+  color: white;
+}
+
+.me h2 {
+  font-size: 20px;
+  font-weight: 300;
+  padding: 20px;
+}
+
+.follow_icon {
+  padding: 20px;
+  background-color: white;
+  gap: 8px;
+}
+
+.follow_icon i {
+  font-size: 25px;
+}
+
+.follow_icon i:hover {
+  opacity: 0.5;
+}
+
+.subscribe_container {
+  margin: 25px;
+  background-color: white;
+}
+
+.subscribe {
+  background-color: black;
+  color: white;
+}
+
+.subscribe h2 {
+  font-size: 20px;
+  font-weight: 300;
+  padding: 20px;
+}
+
+.email {
+  padding: 10px;
+}
+
+.email p {
+  padding-bottom: 8px;
+  word-spacing: 2px;
+}
+
+.email input {
+  width: 97%;
+  padding: 8px;
+}
+
+.subs {
+  padding: 10px;
+}
+
+.subs button {
+  width: 100%;
+  padding: 8px;
+  background-color: red;
+  color: white;
+  border: none;
+}
+
+.subs button:hover {
+  cursor: pointer;
+  background-color: #ccc;
+  color: black;
+}
+
+.top {
+  background-color: grey;
+  padding: 30px;
+}
+
+.top button {
+  padding: 10px 30px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.top button:hover {
+  cursor: pointer;
+  background-color: #ccc;
+  color: black;
+}
+
+.bottom {
+  padding-top: 25px;
+}
+
+.bottom p {
+  font-size: 18px;
+  color: white;
+}
+
+.bottom a {
+  font-size: 18px;
+  color: white;
+}
